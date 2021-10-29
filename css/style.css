@@ -1,0 +1,9 @@
+h1{
+    font-size: 60px ;
+}
+.btn-transparent{
+    background-color: transparent;
+}
+#playAgain{
+    display: none;
+}

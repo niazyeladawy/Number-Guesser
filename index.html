@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number guesser </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container py-5" >
+        <h1>Number Guesser</h1>
+        <p>guess a number between 1 and 10 </p>
+        <div class="d-flex"> 
+            <input type="number" class="form-control w-25" placeholder="Enter Your Guess" id="guessInput">
+            <button class="text-uppercase btn btn-transparent border border-1 ms-3" onclick="guessNumber()" id="guessButton">Guess</button>
+            <button class="text-uppercase btn btn-transparent border border-1 ms-3 " id="playAgain" onclick="playAgain()">Play Again</button>
+            
+        </div>
+        <p id="userMessage" class="mt-3"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
